@@ -41,6 +41,11 @@ android {
 
 dependencies {
     api project(":core")
+    implementation 'com.google.firebase:firebase-firestore-ktx:23.0.3'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.0.0'
+    implementation 'com.google.firebase:firebase-database:20.0.1'
+    implementation 'com.google.firebase:firebase-messaging-ktx:22.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -49,4 +54,7 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0-rc1'
     implementation 'org.tensorflow:tensorflow-lite-support:0.1.0-rc1'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.synnapps:carouselview:0.1.5'
+
 }

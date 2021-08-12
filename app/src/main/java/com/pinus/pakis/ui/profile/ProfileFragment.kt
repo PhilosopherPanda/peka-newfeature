@@ -23,6 +23,13 @@ import com.pinus.pakis.ui.profile_account.ProfileAccountActivity
 
 class ProfileFragment : Fragment() {
 
+    var sampleImages = intArrayOf(
+    R.drawable.aziz_2,
+    R.drawable.alfandi,
+    R.drawable.dea_2,
+    R.drawable.will,
+    R.drawable.maik
+    )
     private lateinit var profileViewModel: ProfileViewModel
     private var _binding: FragmentProfileBinding? = null
     private lateinit var auth: FirebaseAuth

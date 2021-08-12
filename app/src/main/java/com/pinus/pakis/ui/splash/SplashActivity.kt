@@ -3,6 +3,7 @@ package com.pinus.pakis.ui.splash
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.messaging.FirebaseMessaging
 import com.pinus.pakis.databinding.ActivitySplashBinding
 import com.pinus.pakis.ui.introductory.IntroductoryActivity
 
@@ -14,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        FirebaseMessaging.getInstance().subscribeToTopic("news")
         binding.tvPakis.alpha = 0f
         binding.tvSubtitle.alpha = 0f
         binding.tvSubtitle.animate().setDuration(1700).alpha(1f)
