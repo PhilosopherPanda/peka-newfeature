@@ -12,6 +12,9 @@ This is the mobile development repository for B21-CAP0039 final project for Bang
 - [@deanira](https://www.github.com/deanira)
 - [@azizkandias01](https://www.github.com/azizkandias01)
 
+(2 new features notification & uplaod profile image)
+- [PhilosopherPanda](https://github.com/PhilosopherPanda)
+
   
 ## Documentation
 
